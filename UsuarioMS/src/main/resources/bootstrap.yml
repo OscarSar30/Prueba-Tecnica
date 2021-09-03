@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+uri:
+  es-usuarioExterno: "http://localhost:8082"
+  es-usuarioInterno: "http://localhost:8083"
+
