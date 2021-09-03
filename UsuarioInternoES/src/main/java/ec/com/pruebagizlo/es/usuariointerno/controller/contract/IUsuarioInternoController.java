@@ -47,7 +47,7 @@ public interface IUsuarioInternoController {
         @ApiResponse(responseCode = "400", description = "Bad Request", content = @Content(schema = @Schema(implementation = ResponseType.class))),
         
         @ApiResponse(responseCode = "500", description = "Internal Server Error", content = @Content(schema = @Schema(implementation = ResponseType.class))) })
-    @RequestMapping(value = "/api/es/usuarioExterno",
+    @RequestMapping(value = "/api/es/usuarioInterno",
         produces = "application/json; charset=UTF-8", 
         consumes = "application/json; charset=UTF-8",
         method = RequestMethod.POST)
